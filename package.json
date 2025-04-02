@@ -1,0 +1,32 @@
+{
+  "name": "travelden",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@supabase/supabase-js": "^2.49.3",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "next": "15.2.4",
+    "react": "^19.0.0",
+    "react-awesome-reveal": "^4.3.1",
+    "react-bootstrap": "^2.10.9",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.4.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.2.4",
+    "typescript": "^5"
+  }
+}
