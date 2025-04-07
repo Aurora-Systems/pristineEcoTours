@@ -13,8 +13,8 @@ export default function Book(){
     const send_application = (e: FormEvent) => {
         e.preventDefault()
         set_loading(true)
-        emailjs.sendForm("service_5zjo8md", "template_7l03yhh", form.current, {
-            publicKey: "4NKMqim6Cf018UdWQ"
+        emailjs.sendForm("service_wn93t29", "template_vs5fz0u", form.current, {
+            publicKey: "CiFS4wo-oTboJPG9W"
         }).then(() => {
             alert("✅ We received your enquiry, expect a call or an email soon!")
             form.current.reset()
@@ -28,12 +28,12 @@ export default function Book(){
         <div>
             <div className="min-vh-100 primary pt-5 pb-5" >
                 <Fade cascade={true} direction="down" >
-                <h1 className="display-1 fw-bold text-center text-white">Book Your Next Trip With Us</h1>
+                <h1 className="display-1 fw-bold text-center text-white">Book Your Next Tour With Us</h1>
                 <div className="text-center">
-                <Image src="https://ngratesc.sirv.com/Travel%20Den/Johns%20Birthday%20Trip%202025%20(2).png" className="img-fluid" width={"450"} height={"300"} alt="header image"/>
+                <Image src="https://ngratesc.sirv.com/pet/Johns%20Birthday%20Trip%202025.png" className="img-fluid" width={"450"} height={"300"} alt="header image"/>
 
                 </div>
-                <p className="text-center text-white fw-bold">Fill up the form and we will find and plan the best trip for you</p>
+                <p className="text-center text-white fw-bold">Fill up the form and we will plan the perfect visit with us</p>
                 <div className="rounded container bg-white p-3">
                     <form onSubmit={send_application} ref={form}>
                         <div className="row">

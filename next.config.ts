@@ -8,7 +8,7 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'ngratesc.sirv.com',
         port: '',
-        pathname: '/Travel%20Den/*',
+        pathname: '/**',
         search: '',
       },
     ],

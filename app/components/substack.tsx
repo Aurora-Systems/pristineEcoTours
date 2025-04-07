@@ -6,11 +6,11 @@ import { useEffect } from 'react';
 const SubstackFeed = () => {
   useEffect(() => {
     window.SubstackFeedWidget = {
-      substackUrl: "travelden.substack.com",
+      substackUrl: "pristineecotours.substack.com",
       layout: "right",
       posts: 3,
       colors: {
-        primary: "#012139",
+        primary: "green",
         secondary: "#808080",
         background: "#FFFFFF",
       },

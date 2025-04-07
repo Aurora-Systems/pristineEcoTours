@@ -10,8 +10,8 @@ export default function Contact(){
         const send_application = (e: FormEvent) => {
             e.preventDefault()
             set_loading(true)
-            emailjs.sendForm("service_5zjo8md", "template_4n256g7", form.current, {
-                publicKey: "4NKMqim6Cf018UdWQ"
+            emailjs.sendForm("service_wn93t29", "template_vs5fz0u", form.current, {
+                publicKey: "CiFS4wo-oTboJPG9W"
             }).then(() => {
                 alert("✅ We received your enquiry, expect a call or an email soon!")
                 form.current.reset()
@@ -27,12 +27,12 @@ export default function Contact(){
                 <h1 className="display-1 text-center fw-bold tp">
                     Get In Touch
                 </h1>
-                <p>Plan Your Next Journey With Us</p>
+                <p>Send Us A message and we will get intouch with you asap!</p>
 
             </div>
             <div className="row">
                 <div className="col-sm">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d576.471221353393!2d31.004090992309084!3d-17.82685750114293!2m3!1f12.459499263622943!2f0!3f0!3m2!1i1024!2i768!4f35!3m3!1m2!1s0x1931a5c920c6e1f3%3A0x87acf3aca622dc36!2sLongcheng%20Plaza!5e1!3m2!1sen!2szw!4v1743077006281!5m2!1sen!2szw" className="rounded" height="100%"  width="100%" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3007.0015518947166!2d31.272989674000353!3d-17.823728183139753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1931c1f5caeec0dd%3A0x120d16ba1ea5900e!2sEasi%20Seeds!5e1!3m2!1sen!2szw!4v1744034774967!5m2!1sen!2szw" className="rounded" width="100%" height="100%"  loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                 <div className="col-sm">
                     <form onSubmit={send_application} ref={form}>

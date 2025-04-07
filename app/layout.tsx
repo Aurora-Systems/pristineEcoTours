@@ -10,8 +10,8 @@ const urbanist = Urbanist({
   subsets: ["latin"]
 })
 export const metadata: Metadata = {
-  title: "Travel Den",
-  description: "Your trusted Travel Partner",
+  title: "Pristine Eco Tours",
+  description: "Grow with Nature. Discover Sustainability.",
 };
 
 export default function RootLayout({
@@ -31,8 +31,6 @@ export default function RootLayout({
         {children}
     
         <Footer/>
-        <br/>
-    <br/><br/>
     <div style={{height:"10vh"}}>
 
     </div>

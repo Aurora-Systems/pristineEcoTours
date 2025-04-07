@@ -1,5 +1,5 @@
 import { Fade } from "react-awesome-reveal";
-import { primary_btn, white_btn } from "./components/reusable_css";
+import { white_btn } from "./components/reusable_css";
 import Image from "next/image"
 import { BgImg } from "./components/bg_img";
 import Link from "next/link";
@@ -8,15 +8,15 @@ export default function Home() {
   return (
     <div >
       <main>
-        <div style={{...BgImg("https://ngratesc.sirv.com/Travel%20Den/header.jpg"),backgroundAttachment:"fixed"}} className="vh-100 primary d-flex align-items-center justify-content-center">
+        <div style={{...BgImg("https://ngratesc.sirv.com/pet/101220.jpg"),backgroundAttachment:"fixed"}} className="vh-100 primary d-flex align-items-center justify-content-center">
           <div className=" container d-flex align-items-center justify-content-center">
             
-            <div className="text-center header rounded p-5 border_grad s_border">
+            <div className="text-center bg_op rounded p-5 ">
               <Fade cascade={true}>
-                <h1 className="display-1 text-white  fw-bold">Travel Den</h1>
-                <h3 className=" ts">Explore • Dream • Discover</h3>
+                <h1 className="display-1 text-white  fw-bold">Pristine Eco Tours</h1>
+                <h3 className="text-white">Grow with Nature. Discover Sustainability.</h3>
                 <p className="text-white">
-                  Your Trusted Travel Partner
+                Discover the Beauty of Regenerative Living
                 </p>
                 <Link href="/book"><button className={`${white_btn}`}>Book Your Trip</button></Link>
                 </Fade>
@@ -28,29 +28,31 @@ export default function Home() {
         <div className="min-vh-100  d-flex align-items-center justify-content-center text-center">
           <Fade cascade={true} >
           <div className="container pt-5 pb-5">
-            <h1 className="display-1 fw-bold tp"><span className="ts">Once</span> In A Life Time</h1>
+            <h1 className="display-1 fw-bold tp">Live<span className="ts"> &</span> Learn</h1>
             <p>We make every trip a new experience you wont forget</p>
             <div className="row gap-3 justify-content-center">
               <div className="col-sm">
                   
 
                   <Image src="https://ngratesc.sirv.com/Travel%20Den/4.png" width={"300"} height={"300"} alt="zanibar"/>
-                  <p><span className="fw-bold ts">Explore</span> new destinations and embrace the beauty of the unknown.</p>
+                  <p><span className="fw-bold ts">Eco-Tours</span> Enjoy guided walking tours of our organic farm and learn
+
+</p>
               </div>
               <div className="col-sm">
-              <Image src="https://ngratesc.sirv.com/Travel%20Den/balli.png" width={"300"} height={"300"} alt="zanibar"/>
-              <p><span className="fw-bold ts">Discover</span> unforgettable experiences that leave lasting memories.</p>
+              <Image src="https://ngratesc.sirv.com/pet/3.png" width={"300"} height={"300"} alt="zanibar"/>
+              <p><span className="fw-bold ts">Hands-On Workshops</span> Perfect for schools, organizations, or curious individuals, our workshops dive deep into topics</p>
               </div>
               <div className="col-sm">
- <Image src="https://ngratesc.sirv.com/Travel%20Den/ship.png" width={"300"} height={"300"} alt="zanibar"/>
-                  <p><span className="fw-bold ts">Dream</span> beyond borders and turn your travel fantasies into reality.</p>
+ <Image src="https://ngratesc.sirv.com/pet/5.png" width={"300"} height={"300"} alt="zanibar"/>
+                  <p><span className="fw-bold ts">Farm Stays</span> Stay in our eco-friendly accommodations and get involved in daily farm life</p>
               </div>
             </div>
             <div className="d-flex justify-content-center flex-row flex-wrap gap-1">
               <Link href="/tours"><button className="btn rounded-pill p-btn">View Available Tours</button> </Link>
 
               
-              <Link href="/book"><button className="btn rounded-pill p-btn">Plan Your Trip With Us</button></Link>
+              <Link href="/book"><button className="btn rounded-pill p-btn">Book An Educational Tour</button></Link>
 
             </div>
             </div>
@@ -61,63 +63,66 @@ export default function Home() {
 
             <div className="col-sm text-md-start text-center order-md-2 pt-5">
               <Fade cascade={true}>
-                <h5>About us</h5>
-                <h1 className="display-1 text-white fw-bold">About<br/><span className="tp">Travel Den</span></h1>
-                <p className="text-white">We are committed to providing exceptional travel experiences tailored to your needs. Whether you&apos;re planning an adventurous getaway, a corporate trip, or a relaxing holiday, we ensure a seamless journey from start to finish.
+                <h1 className="display-1 text-white fw-bold">About<br/><span className="tp">Pristine Eco Tours</span></h1>
+                <p className="text-white">At Pristine Eco Tours, we believe in the power of nature to heal, nourish, and inspire. Founded on the principles of regenerative agriculture, we are more than just a destination, we&apos;re a movement toward a sustainable and abundant future.
+<br/>
+Our farm is a living classroom, offering hands-on experiences that teach visitors how nature-based solutions can reshape the way we grow food, care for animals, and live in harmony with our environment.
                 </p>
                 <Link href="/book"><button className={`${white_btn}`}>Book Your Trip</button></Link>
                 </Fade>
             </div>
             <div className="col-sm order-md-1">
               <Fade>
-                <Image src="https://ngratesc.sirv.com/Travel%20Den/edr.png" className="img-fluid" width="700" height="500" alt="Picture of Zanzibar"/>
+                <Image src="https://ngratesc.sirv.com/pet/abt.png" className="img-fluid" width="700" height="500" alt="Picture of Zanzibar"/>
               </Fade>
             </div>
           </div>
 
         </div>
-        <div className="text-center secondary vh-100 d-flex flex-column align-items-center justify-content-center" style={{...BgImg("https://ngratesc.sirv.com/Travel%20Den/pexels-keeganjchecks-9730025.jpg"), backgroundAttachment:"fixed"}}>
-          <div className="p-5 rounded header">
+        <div className="text-center secondary vh-100 d-flex flex-column align-items-center justify-content-center" style={{...BgImg("https://ngratesc.sirv.com/pet/2149894686.jpg"), backgroundAttachment:"fixed"}}>
+          <div className="p-5 rounded bg_op">
           <Fade cascade={true}>
             <h1 className="display-1 ts fw-bold text-white">
-              Visit Zanzibar
+              Regenerative Agriculture
             </h1>
-            <p className="text-white ts">Where Turquoise Waters Meet Timeless Beauty</p>
-            <Link target="_blank" href="https://wa.me/263776743323?text=Hi, can i get more information about booking a trip to Zanzibar"> <button className={white_btn}>Get Started</button></Link>
+            <Link target="_blank" href="https://wa.me/263776743323?text=Hi, can i get more information about regenerative agriculture"> <button className={white_btn}>Learn More</button></Link>
           </Fade>
           </div>
 
         </div>
         <Fade  cascade={true}>
         <div className="container p-5 text-center">
-            <h1 className="display-1 fw-bold text-black"><span className="tp">Our Vision</span> <span className="ts"> & Mission</span></h1>
-            <p>We strive to be <i>“Your Most Preferred Travel Agency”</i> by offering outstanding services that exceed expectations and create unforgettable memories. Our goal is to bring people together, fostering shared experiences, dialogue, and growth.</p>
+            <h1 className="display-1 fw-bold text-black"><span className="tp">Our Mission</span> <span className="ts"> & Mission</span></h1>
+            <p>To inspire eco-conscious living through education, immersive experiences, and regenerative practices that restore both land and lives.</p>
             <h4><span className="tp">Core </span><span className="ts">Values</span></h4>
             <div className="row gap-5">
-                <div className="col-sm primary rounded text-white p-1" >
-                  <h2><i className="bi bi-people-fill"></i></h2>
-                    <h5>Team Work</h5>
-                </div>
-                <div className="col-sm secondary rounded text-white p-1" >
-                  <h2><i className="bi bi-award"></i></h2>
-                    <h5>Quality Service</h5>
+            <div className="col-sm secondary rounded text-white p-1" >
+                    <h5>Education</h5>
+                    <p>We believe learning is key to change.</p>
                 </div>
                 <div className="col-sm primary rounded text-white p-1" >
-                  <h2><i className="bi bi-chat-square-text"></i></h2>
-                    <h5>Communication</h5>
+                    <h5>Sustainability</h5>
+                    <p>Every practice on our farm is designed with the planet in mind.</p>
+                </div>
+                <div className="col-sm primary rounded text-white p-1" >
+                    <h5>Innovation</h5>
+                    <p>We champion solutions that benefit both people and the planet.</p>
+                </div>
+                <div className="col-sm secondary primary rounded text-white p-1" >
+                    <h5>Community</h5>
+                    <p>Together, we grow stronger.</p>
                 </div>
                 
             </div>
         </div>
         </Fade>
-        <div className="text-center secondary vh-100 d-flex flex-column align-items-center justify-content-center" style={{...BgImg("https://ngratesc.sirv.com/Travel%20Den/pexels-nextvoyage-1467300.jpg"), backgroundAttachment:"fixed"}}>
-          <div className="p-5 rounded header">
+        <div className="text-center secondary vh-100 d-flex flex-column align-items-center justify-content-center" style={{...BgImg("https://ngratesc.sirv.com/pet/2149607104.jpg"), backgroundAttachment:"fixed"}}>
+          <div className="p-5 rounded bg_op">
           <Fade cascade={true}>
             <h1 className="display-1 ts fw-bold text-white">
-              Visit Dubai
+              Workshops
             </h1>
-            <p className="text-white ts">A Journey Into Luxury, Adventure, and Endless Wonders</p>
-            <Link target="_blank" href="https://wa.me/263776743323?text=Hi, can i get more information about booking a trip to Dubai"><button className={white_btn}>Get Started</button></Link>
+            <Link target="_blank" href="https://wa.me/263776743323?text=Hi, can i get more information about your workshops!"><button className={white_btn}>Learn More</button></Link>
           </Fade>
           </div>
 
@@ -127,84 +132,53 @@ export default function Home() {
           <div className="pt-5 pb-5">
           <Fade cascade={true} >
             <div className="container text-center ">
-              <h1 className="display-1 fw-bold">Meet The <span className="span">A-Team</span></h1>
+              <h1 className="display-1 fw-bold">Our <span className="span">Experiences</span></h1>
+              <h5>Explore • Learn • Regenerate</h5>
+              <p>Step into a world where sustainability comes to life. At Pristine Eco Tours, we offer a variety of activities that bring you closer to nature and deepen your understanding of eco-living.</p>
             </div>
             <div className=" m-5">
             <div className="row gap-5">
               <div className="col-sm bg-white  rounded p-0 team_card container">
-                  <div className="rounded" style={{
-                    ...BgImg("https://ngratesc.sirv.com/Travel%20Den/opd.jpg"),
-                    height:"30vh",
-                    width:"100%"
-                  }}>
-
-                  </div>
+                  
                   <div className="p-2">
-                  <h3 className="tp">Sandra Shamhuyarira</h3>
-                  <p className="ts">Operations Director</p>
-                  <a href="tel:+263776743196"> <button className={`${primary_btn} w-100`}>Get In Touch</button></a>
+                  <h3 className="tp">Hands-On Workshops</h3>
+                  <ul className="ts">
+                    <li>Water conservation and harvesting</li>
+                    <li>DIY compost and organic fertilizers</li>
+                    <li>Regenerative livestock management</li>
+                    <li>Agroforestry and carbon farming</li>
+                  </ul>
                   </div>
 
               </div>
-              <div className="col-sm border bg-white team_card rounded p-0">
-                  <div style={{
-                    ...BgImg("https://ngratesc.sirv.com/Travel%20Den/zoe.jpg"),
-                    height:"30vh",
-                    width:"100%"
-                  }}>
-
-                  </div>
-                  <div className="p-2">
-                  <h3 className="tp">Zowie Takunda Shamhuyarira</h3>
-                  <p className="ts">Senior Travel Consultant</p>
-                  <a href="tel:+263719743323"><button className={`${primary_btn} w-100`}>Get In Touch</button></a>
-                  </div>
-
-              </div>
+            
               <div className="col-sm bg-white border team_card rounded p-0">
-                  <div style={{
-                    ...BgImg("https://ngratesc.sirv.com/Travel%20Den/gh.jpg"),
-                    height:"30vh",
-                    width:"100%"
-                  }}>
-
-                  </div>
+                 
                   <div className="p-2">
-                  <h3 className="tp">Christine Makanaka Pearl Tom</h3>
-                  <p className="ts">Travel Consultant</p>
-                  <a href="tel:+263783996339"><button className={`${primary_btn} w-100`}>Get In Touch</button></a>
+                  <h3 className="tp">Eco-Tours</h3>
+                  <ul className="ts">
+                    <li>Permaculture principles</li>
+                    <li>Composting and soil health</li>
+                    <li>Natural pest control and companion planting</li>
+                    <li>Biodiversity and ecosystem restoration</li>
+                  </ul>
                   </div>
 
               </div>
-              <div className="col-sm border bg-white team_card rounded p-0">
-                  <div style={{
-                    ...BgImg("https://ngratesc.sirv.com/Travel%20Den/tin.jpg"),
-                    height:"30vh",
-                    width:"100%"
-                  }}>
-
-                  </div>
-                  <div className="p-2">
-                  <h3 className="tp">Tinodiwa Chikombero</h3>
-                  <p className="ts">Travel Consultant</p>
-                  <a href="tel:+263719808160"><button className={`${primary_btn} w-100`}>Get In Touch</button></a>
-                  </div>
-
-              </div>
+             
            
             </div>
             </div>
             </Fade>
             </div>
         </div>
-        <div className="text-center secondary vh-100 d-flex flex-column align-items-center justify-content-center" style={{...BgImg("https://ngratesc.sirv.com/Travel%20Den/pexels-niklas-eichler-2137446-3770287.jpg"), backgroundAttachment:"fixed"}}>
-          <div className="p-5 rounded header">
+        <div className="text-center secondary vh-100 d-flex flex-column align-items-center justify-content-center" style={{...BgImg("https://ngratesc.sirv.com/pet/4266.jpg"), backgroundAttachment:"fixed"}}>
+          <div className="p-5 rounded bg_op">
           <Fade cascade={true}>
             <h1 className="display-1 ts fw-bold text-white">
-              Visit Cape Town
+              Eco-Tours
             </h1>
-            <p className="text-white ts">Where Breathtaking Beauty Meets Unforgettable Adventure!</p>
-           <Link target="_blank" href="https://wa.me/263776743323?text=Hi, can i get more information about booking a trip to Cape Town"><button className={white_btn}>Get Started</button></Link> 
+           <Link target="_blank" href="https://wa.me/263776743323?text=Hi, can i get more information about your Eco Tours "><button className={white_btn}>Learn More</button></Link> 
           </Fade>
           </div>
 

@@ -5,7 +5,7 @@ import { ShowImage } from "../components/show_img";
 import Link from "next/link";
 
 export default async function tours(){
-    const {data} = await db.from("items").select("*").eq("user_id","kp_9e709c599d894404b2de694d9d23f7a3")
+    const {data} = await db.from("items").select("*").eq("user_id","kp_fe0353cf07af45bbbfebcb3efdc01eac")
     return(
         <div>
             <div className="min-vh-100 pt-5 pb-5">
