@@ -45,7 +45,7 @@ export const Bar = () => {
   
                 {/* Explore Button for Desktop */}
                 <div className="navbar-explore">
-                    <button className="explore-btn">Get In Touch </button>
+                    <Link href="mailto:sales@pristineecotours.co.zw"><button className="explore-btn">Get In Touch </button></Link>
                 </div>
   
                 {/* Mobile Menu Toggle */}
@@ -65,7 +65,7 @@ export const Footer=()=>{
           <span className="fw-bold tp">Zimbabwean Offices</span>
           <br/>
           <span><i className="bi bi-geo-alt ts"></i> 4 Gardiner Rd, Arcturus Road, Harare</span>
-          <span><i className="bi bi-envelope-at ts"></i> info@pristineecotours.co.zw</span>
+          <span><i className="bi bi-envelope-at ts"></i> sales@pristineecotours.co.zw</span>
           <span><i className="bi bi-telephone ts"></i> 077 381 6816</span>
         </div>
         
