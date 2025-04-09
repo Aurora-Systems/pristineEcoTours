@@ -39,7 +39,7 @@ export default async function tours(){
                                          </p>
                                      </div>
                                      <div>
-                                        <Link target="_blank" href={`https://wa.me/+263719743323?text=Can I get more information about visiting ${x.item_name} for $${x.price}`}><button className={`${primary_btn} w-100`}>Get More Information</button></Link> 
+                                        <Link target="_blank" href={`https://wa.me/+263773816816?text=Can I get more information about visiting ${x.item_name} for $${x.price}`}><button className={`${primary_btn} w-100`}>Get More Information</button></Link> 
                                      </div>
                                  </div>
                                 )
