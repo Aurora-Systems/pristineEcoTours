@@ -9,10 +9,10 @@ export default function PristineEcoTours() {
             <h1 className="display-4 fw-bold">🌱 Learn with Pristine Eco Tours</h1>
             <p className="lead fw-bold">Discover. Experience. Grow.</p>
             <hr className="my-4 bg-white" />
-            <p className="fs-5">
+            <p className="">
               At <strong>Pristine Eco Tours</strong>, learning isn&apos;t confined to a classroom it thrives in fields, gardens, animal barns, and the buzzing hum of beehives. Nestled in the serene landscapes of Zimbabwe, our farm is a <em>living classroom</em>, where every visitor can witness nature, sustainability, and innovation working in perfect harmony.
             </p>
-            <p className="fs-5 mb-0">
+            <p className=" mb-0">
               We are proud to be a regenerative agriculture and eco-tourism venture, shaping the future of farming through education, hands-on experiences, and community empowerment.
             </p>
           </div>
