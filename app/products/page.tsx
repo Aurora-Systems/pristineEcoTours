@@ -4,8 +4,8 @@ import { db } from "../api/supabase";
 import { ShowImage } from "../components/show_img";
 import Link from "next/link";
 
-export default async function tours(){
-    const {data} = await db.from("items").select("*").eq("user_id","kp_fe0353cf07af45bbbfebcb3efdc01eac").eq("category", "tours")
+export default async function Products(){
+    const {data} = await db.from("items").select("*").eq("user_id","kp_fe0353cf07af45bbbfebcb3efdc01eac").eq("category", "products")
     return(
         <div>
             <div className="min-vh-100 pt-5 pb-5">
@@ -13,10 +13,10 @@ export default async function tours(){
                 <div className="text-center">
 
                 <h1 className="display-1 fw-bold text-center tp">
-                    Available <span className="ts">Tours</span>
+                    Available <span className="ts">Products</span>
                 </h1>
                 <p>
-                    A new destination awaits you
+                    Shop for natural produce
                 </p>
                 </div>
                 <div className="m-5">

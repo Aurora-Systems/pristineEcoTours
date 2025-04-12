@@ -37,6 +37,8 @@ export const Bar = () => {
                     </div>
                     <Link href="/" className="nav-link" onClick={()=>setIsDrawerOpen(false)}>Home</Link> 
                     <Link href="/tours" className="nav-link"  onClick={()=>setIsDrawerOpen(false)}>Tours</Link> 
+                    <Link href="/products" className="nav-link"  onClick={()=>setIsDrawerOpen(false)}>Products</Link> 
+
                     <Link href="/learn" className="nav-link"  onClick={()=>setIsDrawerOpen(false)}>Learn</Link> 
 
                     <Link href="/book" className="nav-link"  onClick={()=>setIsDrawerOpen(false)}>Book A Trip</Link> 
@@ -76,7 +78,8 @@ export const Footer=()=>{
           <br/>
           <span><Link href="/">Home</Link></span>
           <span><Link href="/tours">Tours</Link></span>
-          <span><Link href="/learn">Tours</Link></span>
+          <span><Link href="/products">Products</Link></span>
+          <span><Link href="/learn">Learn</Link></span>
           <span><Link href="/book">Book A Trip</Link></span>
           <span><Link href="/blog">Blog</Link></span>
           <span><Link href="/contact">Contact</Link></span>
