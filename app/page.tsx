@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div >
       <main>
-        <div style={{...BgImg("https://ngratesc.sirv.com/pet/101220.jpg"),backgroundAttachment:"fixed"}} className="vh-100 primary d-flex align-items-center justify-content-center">
+        <div style={{...BgImg("https://cdn.clipond.com/pet/101220.jpg"),backgroundAttachment:"fixed"}} className="vh-100 primary d-flex align-items-center justify-content-center">
           <div className=" container d-flex align-items-center justify-content-center">
             
             <div className="text-center bg_op rounded p-5 ">
@@ -34,17 +34,17 @@ export default function Home() {
               <div className="col-sm">
                   
 
-                  <Image src="https://ngratesc.sirv.com/Travel%20Den/4.png" width={"300"} height={"300"} alt="zanibar"/>
+                  <Image src="https://cdn.clipond.com/Travel%20Den/4.png" width={"300"} height={"300"} alt="zanibar"/>
                   <p><span className="fw-bold ts">Eco-Tours</span> Enjoy guided walking tours of our organic farm and learn
 
 </p>
               </div>
               <div className="col-sm">
-              <Image src="https://ngratesc.sirv.com/pet/3.png" width={"300"} height={"300"} alt="zanibar"/>
+              <Image src="https://cdn.clipond.com/pet/3.png" width={"300"} height={"300"} alt="zanibar"/>
               <p><span className="fw-bold ts">Hands-On Workshops</span> Perfect for schools, organizations, or curious individuals, our workshops dive deep into topics</p>
               </div>
               <div className="col-sm">
- <Image src="https://ngratesc.sirv.com/pet/5.png" width={"300"} height={"300"} alt="zanibar"/>
+ <Image src="https://cdn.clipond.com/pet/5.png" width={"300"} height={"300"} alt="zanibar"/>
                   <p><span className="fw-bold ts">Farm Stays</span> Stay in our eco-friendly accommodations and get involved in daily farm life</p>
               </div>
             </div>
@@ -73,13 +73,13 @@ Our farm is a living classroom, offering hands-on experiences that teach visitor
             </div>
             <div className="col-sm order-md-1">
               <Fade>
-                <Image src="https://ngratesc.sirv.com/pet/abt.png" className="img-fluid" width="700" height="500" alt="Picture of Zanzibar"/>
+                <Image src="https://cdn.clipond.com/pet/abt.png" className="img-fluid" width="700" height="500" alt="Picture of Zanzibar"/>
               </Fade>
             </div>
           </div>
 
         </div>
-        <div className="text-center secondary vh-100 d-flex flex-column align-items-center justify-content-center" style={{...BgImg("https://ngratesc.sirv.com/pet/2149894686.jpg"), backgroundAttachment:"fixed"}}>
+        <div className="text-center secondary vh-100 d-flex flex-column align-items-center justify-content-center" style={{...BgImg("https://cdn.clipond.com/pet/2149894686.jpg"), backgroundAttachment:"fixed"}}>
           <div className="p-5 rounded bg_op">
           <Fade cascade={true}>
             <h1 className="display-1 ts fw-bold text-white">
@@ -116,7 +116,7 @@ Our farm is a living classroom, offering hands-on experiences that teach visitor
             </div>
         </div>
         </Fade>
-        <div className="text-center secondary vh-100 d-flex flex-column align-items-center justify-content-center" style={{...BgImg("https://ngratesc.sirv.com/pet/2149607104.jpg"), backgroundAttachment:"fixed"}}>
+        <div className="text-center secondary vh-100 d-flex flex-column align-items-center justify-content-center" style={{...BgImg("https://cdn.clipond.com/pet/2149607104.jpg"), backgroundAttachment:"fixed"}}>
           <div className="p-5 rounded bg_op">
           <Fade cascade={true}>
             <h1 className="display-1 ts fw-bold text-white">
@@ -172,7 +172,7 @@ Our farm is a living classroom, offering hands-on experiences that teach visitor
             </Fade>
             </div>
         </div>
-        <div className="text-center secondary vh-100 d-flex flex-column align-items-center justify-content-center" style={{...BgImg("https://ngratesc.sirv.com/pet/4266.jpg"), backgroundAttachment:"fixed"}}>
+        <div className="text-center secondary vh-100 d-flex flex-column align-items-center justify-content-center" style={{...BgImg("https://cdn.clipond.com/pet/4266.jpg"), backgroundAttachment:"fixed"}}>
           <div className="p-5 rounded bg_op">
           <Fade cascade={true}>
             <h1 className="display-1 ts fw-bold text-white">
