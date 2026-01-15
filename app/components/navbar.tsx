@@ -16,7 +16,7 @@ export const Bar = () => {
             <div className="navbar-container container-fluid">
                 {/* Brand Column */}
                 <div className="navbar-brand d-flex align-items-center">
-                    <Image src="https://ngratesc.sirv.com/pet/pet_logo.png" width="90" height="50" alt="logo"/>
+                    <Image src="https://cdn.clipond.com/pet/pet_logo.png" width="90" height="50" alt="logo"/>
                 </div>
   
                 {/* Navigation Links */}
@@ -93,7 +93,7 @@ export const Footer=()=>{
           
         </div>
         <div className="col-sm text-center">
-          <Image width={170} className="img-fluid" height={170} src={"https://ngratesc.sirv.com/pet/pet_logo.png"} alt=""/>
+          <Image width={170} className="img-fluid" height={170} src={"https://cdn.clipond.com/pet/pet_logo.png"} alt=""/>
         </div>
     </div>
     </div>
